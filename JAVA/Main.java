@@ -14,5 +14,6 @@ public class Main {
         System.out.println("Su numero entero es " + entero);
         System.out.println("Su numero decimal es " + decimal);
         System.out.println("Su palabra es " + palabra);
+        lec.close();
     }
 }

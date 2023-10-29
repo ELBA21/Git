@@ -9,7 +9,6 @@ public class calculadora{
         int B = lec.nextInt();
         int C = A + B;
         System.out.println("La suma de "+ A +" + " + B + " es " + C);
-
-        Scanner.close();
+        lec.close();
     }
 }
