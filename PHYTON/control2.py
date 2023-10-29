@@ -11,11 +11,14 @@
 if __name__ == "__main__":
     print("====Prueba Indice Cintura/Altura (ICA)====")
     print("Ingrese su altura en centimetros")
-    alt = int(input())
+    alt = -1
+    while alt<1:
+        alt = int(input())
+        if alt<1:
+            print("Ingrese su altura en centimetros")
     print("Ingrese la circunferencia de su cintura")
     circ = int(input())
     ica = circ / alt
-
     print("Su ICA es: " + str(ica))
     if ica<0.536:
         print("Su ICA es NORMAL")
