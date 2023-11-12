@@ -1,4 +1,4 @@
-package problema1;
+
 import java.util.Scanner;
 public class Maestro {
     Scanner lec = new Scanner(System.in);
